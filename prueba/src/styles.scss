@@ -1,0 +1,48 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'ngx-toastr/toastr-bs5-alert';
+
+.justify-content-right {
+    justify-content: right;
+}
+
+.modal {
+    background: rgba(0, 0, 0, .5);
+}
+
+p {
+    margin: 0px;
+}
+
+input {
+    border-radius: 8px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+canvas,
+.image-signature {
+    touch-action: none;
+    user-select: none;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.text-align-last-left {
+    text-align-last: left;
+}
+
+table td {
+    cursor: pointer;
+}
+
+tr {
+    height: 3rem;
+    vertical-align: middle;
+}

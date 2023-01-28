@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+    canvas {
+        width: 100%;
+    }
+
+    .image-signature {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-signature {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.img-angular{
+    width: 12rem;
+}
